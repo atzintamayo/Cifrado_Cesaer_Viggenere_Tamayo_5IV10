@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    font-family:  Raleway;
+}
+
+.container{
+
+    display: grid;
+    grid-template: 1rem 1rem;
+    
+}
+
+.cuadro{
+    margin: 3rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: rgb(207, 249, 249);
+    border-radius: 10px;
+    font-size: large;
+
+}
+
+.texto{
+    font-size: x-large;
+    align-self: center;
+}
+
+.do{
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    border: 2px solid #000000; 
+    border-radius: 5px;
+}
+
+.divbonito{
+    margin: 3rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: rgba(254, 66, 49, 0.788);
+    border-radius: 10px;
+    font-size: large;
+}
+
+.divbonito2{
+    margin: 3rem;
+    padding: 5rem;
+    border: 10px;
+    background-color: rgba(97, 49, 254, 0.675);
+    border-radius: 10px;
+    font-size: large;
+}

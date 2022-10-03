@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Viggenere</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/viggenere.js"></script>
+</head>
+<body>
+    <div class="divbonito2">
+        <p class="texto">
+            Ingresa la llave que quieres utilizar, recuerda que debe ser menor que cualquier palabra del mensaje
+        </p>>
+        <input type="text" id="llave">
+        <p>
+            Ingresa el mensaje que quieres cifrar
+        </p>>
+        <input type="text" id="mess">
+    
+        <button type="submit" onclick="cifrado();" class="do">Cifrar</button>
+    
+        <button type="submit" onclick="descifrar();" class="do">Descifrar</button>    
+    </div>
+    
+    <p class="texto">Mensaje:</p>
+    <div id="rs" class="divbonito"></div>
+
+    <a class="texto" href="index.html">Regresar</a>
+
+
+    
+    
+</body>
+</html>
