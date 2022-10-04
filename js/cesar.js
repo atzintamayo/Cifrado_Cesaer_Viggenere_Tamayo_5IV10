@@ -58,14 +58,14 @@ var cesar = cesar || (function(){
 })();
 
 function cifrar(){
-    var frase = (Document.getElementById("frase").value);
-    var x = parseInt(Document.getElementById("valor").value);
+    var frase = (document.getElementById("frase").value);
+    var x = parseInt(document.getElementById("valor").value);
     document.getElementById("final").innerHTML = cesar.encode(frase,x);
     
 }
 function descifrar(){
-    var frase = (Document.getElementById("frase").value);
-    var x = parseInt(Document.getElementById("valor").value);
+    var frase = (document.getElementById("frase").value);
+    var x = parseInt(document.getElementById("valor").value);
     document.getElementById("final").innerHTML = cesar.decode(frase,x);
     
 }
